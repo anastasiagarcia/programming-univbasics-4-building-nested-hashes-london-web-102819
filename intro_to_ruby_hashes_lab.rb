@@ -21,7 +21,7 @@ end
 
 def monopoly_with_third_tier
   monopoly=monopoly_with_second_tier();
-  monopoly[:railroads][:rent_in_dollars]={:=>{},:key2=>{}, :key3=>{}, :key=>{}};
+  monopoly[:railroads][:rent_in_dollars]={:rent_in_dollars=>25,:key2=>{}, :key3=>{}, :key=>{}};
   monopoly[:railroads][:names]={:key1=>{},:key2=>{}, :key3=>{}, :key4=>{}};
   #monopoly[:railroads][:rent_in_dollars][:one_piece_owned]=25;
   
