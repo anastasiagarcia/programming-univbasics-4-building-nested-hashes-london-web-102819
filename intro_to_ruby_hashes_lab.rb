@@ -33,6 +33,7 @@ end
 
 def monopoly_with_fourth_tier
   monopoly=monopoly_with_third_tier();
+  monopoly[:railroads][:names][:reading_railroad]={
   
   
   # When you start writing the implementation for this method, copy the Hash
