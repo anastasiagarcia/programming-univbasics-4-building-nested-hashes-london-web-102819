@@ -9,12 +9,8 @@ end
 
 def monopoly_with_second_tier
   monopoly={:railroads=>{}}
-  a={
-    :pieces=>
-    
-  }
-  monopoly[railroads]=monopoly[railroads].merge(a[pieces])
-  return monopoly
+ 
+ 
   
 
   
